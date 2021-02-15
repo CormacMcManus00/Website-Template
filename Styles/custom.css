@@ -1,0 +1,105 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo{
+    font-family: 'poppins', sans-serif;
+    letter-spacing: 3px;
+    font-size: 3em;
+    padding: 0px 20px;
+}
+
+ul li a{
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+}
+
+#navbarNav{
+    justify-content: flex-end;
+}
+
+#navbarNav ul {
+    justify-content: space-between;
+    width: 50vw;
+    margin-right: 20%;
+}
+
+#navToggle {
+    margin-right: 10vw;    
+}
+
+main{
+    min-height: 85vh;
+}
+
+#image-banner {
+    height: 40vw;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+#banner-text{
+    font-family: 'poppins', sans-serif; 
+    font-weight: bold; 
+    display: flex; 
+    justify-content: center; 
+    text-align: center; 
+    color: white; 
+    padding-top: 12vw; 
+    font-size: 4vw;
+}
+
+#credit-text{
+    font-family: 'poppins', sans-serif;
+    padding-top: 11.5vw;
+    font-size: 1vw;
+    color: white;
+    font-weight: bold;
+    padding-left: 1vw;
+}
+
+#quote-div h2{
+    font-size: 4vw;
+}
+
+#quote-line-1{
+    padding-left: 8vw;
+    font-family: 'poppins', sans-serif;
+}
+
+#quote-line-2{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 8vw;
+    font-family: 'poppins', sans-serif;
+}
+
+#quote-line-3{
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    font-family: 'bebas neue', sans-serif;
+}
+
+#alley-pic{
+
+}
+
+#cave-pic{
+    padding-bottom: 3vh;
+}
+
+#rose-pic{
+    padding-top: 3vh;
+}
+
+.pictures{
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .pictures{
+        padding-bottom: 50px;
+        padding-top: 0px;
+    }
+ }
